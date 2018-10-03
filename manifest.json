@@ -1,0 +1,20 @@
+{
+  "manifest_version": "2",
+  "api_version": "1",
+  "name": "Lock Screen (Linux Mint / Cinnamon)",
+  "description": "Adds screen lock option",
+  "developer_name": "Kay Stenschke",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "lockcinnamon",
+      "type": "keyword",
+      "name": "Lock",
+      "description": "Lock Screen",
+      "default_value": "lock"
+    }
+  ]
+}
